@@ -1,0 +1,15 @@
+{
+  "name": "lubistick/design-patterns-php",
+  "description": "design patterns php",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "lubis",
+      "email": "lubistick@mail.ru"
+    }
+  ],
+  "require": {
+    "php": "^8.0.5"
+  }
+}
