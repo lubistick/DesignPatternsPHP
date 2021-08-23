@@ -5,7 +5,8 @@ declare(strict_types=1);
 require 'vendor/autoload.php';
 
 $dispatcher = FastRoute\simpleDispatcher(function(FastRoute\RouteCollector $r) {
-    $r->get('/test', 'app/DesignPatterns/Creational/AbstractFactory/index.php');
+    $r->get('/creational/abstract-factory', 'app/DesignPatterns/Creational/AbstractFactory/index.php');
+    $r->get('/creational/factory-method', 'app/DesignPatterns/Creational/FactoryMethod/index.php');
 });
 
 // Fetch method and URI from somewhere
