@@ -9,6 +9,8 @@ $dispatcher = FastRoute\simpleDispatcher(function(FastRoute\RouteCollector $r) {
     $r->get('/creational/factory-method', 'app/DesignPatterns/Creational/FactoryMethod/index.php');
 
     $r->get('/structural/adapter', 'app/DesignPatterns/Structural/Adapter/index.php');
+
+    $r->get('/behavioral/observer', 'app/DesignPatterns/Behavioral/Observer/index.php');
 });
 
 // Fetch method and URI from somewhere
