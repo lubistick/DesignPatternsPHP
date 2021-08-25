@@ -21,6 +21,7 @@ class UserRepository implements SplSubject
     // Его основная бизнес-логика приведена ниже этих методов.
 
     // '*' - специальная группа событий для наблюдателей, которые хотят слушать все события.
+    // Можно реализовать через new \SplObjectStorage()
     private array $observers = ['*' => []];
 
     public function attach(SplObserver $observer, string $event = '*'): void

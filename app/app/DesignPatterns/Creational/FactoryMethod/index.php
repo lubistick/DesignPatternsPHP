@@ -15,6 +15,8 @@ use App\DesignPatterns\Creational\FactoryMethod\Posters\SocialNetworkPoster;
  *
  * Клиентский код может работать с любым подклассом SocialNetworkPoster, так как
  * он не зависит от конкретных классов.
+ *
+ * @see https://refactoring.guru/ru/design-patterns/factory-method
  */
 function clientCode(SocialNetworkPoster $poster)
 {
