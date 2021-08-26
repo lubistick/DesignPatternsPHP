@@ -11,6 +11,7 @@ $dispatcher = FastRoute\simpleDispatcher(function(FastRoute\RouteCollector $r) {
     $r->get('/structural/adapter', 'app/DesignPatterns/Structural/Adapter/index.php');
 
     $r->get('/behavioral/observer', 'app/DesignPatterns/Behavioral/Observer/index.php');
+    $r->get('/behavioral/strategy', 'app/DesignPatterns/Behavioral/Strategy/index.php');
 });
 
 // Fetch method and URI from somewhere
