@@ -11,3 +11,7 @@ IP докер машины можно узнать командой `docker-mach
 Запуск проекта `docker-compose up`
 
 Зайти в контейнер php `docker exec -ti designpatternsphp_php_1 sh` и установить зависимости `composer i`
+
+## Тесты
+
+Запуск тестов: `vendor/bin/phpunit tests --colors`

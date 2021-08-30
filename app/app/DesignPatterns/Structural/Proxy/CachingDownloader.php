@@ -30,4 +30,9 @@ class CachingDownloader implements Downloader
 
         return $this->cache[$url];
     }
+
+    public function getCacheByUrl(string $url): ?string
+    {
+        return $this->cache[$url] ?? null;
+    }
 }
