@@ -10,6 +10,7 @@ $dispatcher = FastRoute\simpleDispatcher(function(FastRoute\RouteCollector $r) {
     $r->get('/creational/factory-method', 'app/DesignPatterns/Creational/FactoryMethod/index.php');
 
     $r->get('/structural/adapter', 'app/DesignPatterns/Structural/Adapter/index.php');
+    $r->get('/structural/bridge', 'app/DesignPatterns/Structural/Bridge/index.php');
     $r->get('/structural/proxy', 'app/DesignPatterns/Structural/Proxy/index.php');
 
     $r->get('/behavioral/iterator', 'app/DesignPatterns/Behavioral/Iterator/index.php');

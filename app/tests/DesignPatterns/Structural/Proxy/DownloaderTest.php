@@ -2,6 +2,8 @@
 
 declare(strict_types=1);
 
+namespace Tests\DesignPatterns\Structural\Proxy;
+
 use App\DesignPatterns\Structural\Proxy\CachingDownloader;
 use App\DesignPatterns\Structural\Proxy\SimpleDownloader;
 use PHPUnit\Framework\TestCase;
